@@ -3,6 +3,7 @@ html,body{
     color:#ffffff;
     margin:0px;
     padding:8px;
+    overflow-x: hidden;
 }
 nav{
     margin:0px;
@@ -113,30 +114,139 @@ line-height:58.59px;
 .menu-bar{
     display:none;
 }
-@media screen and (max-width:765px) {
-    html,body{
-        /* background:linear-gradient(to right,#494949,#919191) */
-        background:gray;
-    }
-    .middle-section{
-        display:none;
-    }
-    .left-section{
-        display:none;
-    }
-    .menu-bar{
-        display:flex;
-    }
-    .menu-bar img{
-        width:60px;
-    }
-    #header-one{
-        font-size:22px
-    }
-    /* h1{ */
-        /* font-size:1px; */
-    /* } */
+.first-section-div-two{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
 }
+.section-one-first-div{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:space-between; */
+    align-items:center;
+}
+.section-one{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#hello{
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:39px;
+    line-height:45.7px;
+    color:#e0e0e0;
+    margin-bottom:0px;
+}
+.samuel-ben{
+    margin-top:0px;
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:78px;
+    line-height:91.41px;
+    color:#70ff00;
+    width:431px;
+}
+.fullstack-dev{
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:57px;
+    line-height:66.8px;
+    color:#e0e0e0;
+}
+#years-of{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+
+.five-years{
+font-family:roboto,arial;
+font-weight:400px;
+font-size:27px;
+line-height:31.64px;
+width:157px;
+color:#828282;
+text-align: center;;
+}
+.five-years span{
+    font-size:40px;
+    float:left;
+    /* margin-right:32px; */
+}
+.number-five h2{
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:86px;
+    line-height:100.78px;
+    color:#4f4f4f;
+}
+.number-five{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.five-year{
+    width:275px;
+    font-family:roboto,arial;
+    font-weight:500px;
+    font-size:25px;
+    line-height:29.3px;
+    color:#828282;
+    /* border-radius: */
+}
+.profile-pic-container{
+    width:569px;
+    height:549px;
+}
+.my-profile-pic{
+    width:526px;
+    height:526px;
+    background-color:#2d2d2d;
+    box-shadow:5px 5px 5px #000000;
+    border-radius:263px;
+    position:relative;
+}
+.profile-pic{
+    width:545px;
+    height:445px;
+}
+.nodejs img{
+    width:84px;
+    height: 84px;
+    border-radius:42px;
+    background-color: #494949;
+}
+.nodejs{
+    position:absolute;
+    margin-top:-423px;
+    margin-left:411px;
+}
+.react img{
+    width:84px;
+    height:84px;
+    background-color: #494949;
+    border-radius:42px;
+}
+.react{
+    position:absolute;
+    margin-top:-150px;
+    margin-left:40px;
+}
+.typescript img{
+    width:84px;
+    height:84px;
+    background-color: #494949;
+    border-radius:42px;
+}
+.typescript{
+position:absolute;
+margin-top:-120px;
+margin-left:423px;
+}
+/* tablet screen size` */
 @media screen and (max-width:1200px){
     #header-one{
         font-size:22px;
@@ -168,4 +278,270 @@ line-height:58.59px;
 .menu-bar{
     display:flex;
 }
+.menu-bar img{
+    width:100px;
+}
+#hello{
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:29px;
+    line-height:45.7px;
+    color:#e0e0e0;
+    margin-bottom:0px;
+}
+.samuel-ben{
+    margin-top:0px;
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:40px;
+    line-height:60px;
+    color:#70ff00;
+    width:231px;
+}
+.fullstack-dev{
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:40px;
+    line-height:46.8px;
+    color:#e0e0e0;
+}
+#years-of{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+.five-years{
+font-family:roboto,arial;
+font-weight:400px;
+font-size:17px;
+line-height:31.64px;
+width:110px;
+color:#828282;
+text-align: center;;
+}
+.five-years span{
+    font-size:40px;
+    float:left;
+    /* margin-right:32px; */
+}
+.number-five h2{
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:86px;
+    line-height:100.78px;
+    color:#4f4f4f;
+}
+.number-five{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.five-year{
+    width: 160px;
+    font-family:roboto,arial;
+    font-weight:500px;
+    font-size:15px;
+    line-height:29.3px;
+    color:#828282;
+    /* border-radius: */
+}
+.profile-pic-container{
+    width:456px;
+    height:549px;
+}
+.my-profile-pic{
+    width:340px;
+    height:340px;
+    background-color:#2d2d2d;
+    box-shadow:5px 5px 5px #000000;
+    border-radius:160px;
+    position:relative;
+}
+.profile-pic{
+    margin-top: -18px;;
+    width:320px;
+    height:320px;
+}
+.nodejs img{
+    width:60px;
+    height: 60px;
+    border-radius:30px;
+    background-color: #494949;
+}
+.nodejs{
+    position:absolute;
+    margin-top:-310px;
+    margin-left:251px;
+}
+.react img{
+    width:60px;
+    height:60px;
+    background-color: #494949;
+    border-radius:30px;
+}
+.react{
+    position:absolute;
+    margin-top:-87px;
+    margin-left:40px;
+}
+.typescript img{
+    width:60px;
+    height:60px;
+    background-color: #494949;
+    border-radius:30px;
+}
+.typescript{
+position:absolute;
+margin-top:-75px;
+margin-left:253px;
+}
+    }
+    /* mobile screen size */
+    @media screen and (max-width:765px) {
+        html,body{
+            /* background:linear-gradient(to right,#494949,#919191) */
+            background:gray;
+        }
+        .middle-section{
+            display:none;
+        }
+        .left-section{
+            display:none;
+        }
+        .menu-bar{
+            display:flex;
+        }
+        .menu-bar img{
+            width:60px;
+        }
+        .section-one{
+            display:flex;
+            flex-direction:column-reverse;
+        }
+        #header-one{
+            font-size:22px
+        }
+        #hello{
+            font-family:roboto,arial;
+            font-weight:700px;
+            font-size:20px;
+            line-height:45.7px;
+            color:#e0e0e0;
+            margin-bottom:0px;
+        }
+        .samuel-ben{
+            margin-top:0px;
+            font-family:roboto,arial;
+            font-weight:700px;
+            font-size:47px;
+            line-height:91.41px;
+            color:#70ff00;
+            width:280px;
+        }
+        .fullstack-dev{
+            font-family:roboto,arial;
+            font-weight:700px;
+            font-size:40px;
+            line-height:60.8px;
+            text-align:center;
+            color:#e0e0e0;
+        }
+        #years-of{
+            display:flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            align-items: center;
+            gap:0px;
+        }
+        
+        .five-years{
+        font-family:roboto,arial;
+        font-weight:400px;
+        font-size:21px;
+        line-height:31.64px;
+        width:157px;
+        color:#e0e0e0;
+        text-align: center;;
+        }
+        .five-years span{
+            font-size:10px;
+            float:left;
+            /* margin-right:32px; */
+        }
+        .number-five h2{
+            font-family:roboto,arial;
+            font-weight:700px;
+            font-size:86px;
+            line-height:100.78px;
+            /* color:#e0e0e0f0; */
+        }
+        .number-five{
+            margin-top: -100px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        .five-year{
+            width:200px;
+            font-family:roboto,arial;
+            font-weight:500px;
+            font-size:21px;
+            line-height:31.3px;
+            color:#e0e0e0;
+            /* border-radius: */
+        }
+        .profile-pic-container{
+            width:269px;
+            height:549px;
+        }
+        .my-profile-pic{
+            width:260px;
+            height:260px;
+            background-color:#2d2d2d;
+            box-shadow:5px 5px 5px #000000;
+            border-radius:263px;
+            position:relative;
+        }
+        .profile-pic{
+            width:245px;
+            height:245px;
+        }
+        .nodejs img{
+            width:40px;
+            height: 40px;
+            border-radius:42px;
+            background-color: #494949;
+        }
+        .nodejs{
+            position:absolute;
+            margin-top:-240px;
+            margin-left:180px;
+        }
+        .react img{
+            width:40px;
+            height: 40px;
+            background-color: #494949;
+            border-radius:42px;
+        }
+        .react{
+            position:absolute;
+            margin-top:-70px;
+            margin-left:25px;
+        }
+        .typescript img{
+            width:40px;
+            height: 40px;
+            background-color: #494949;
+            border-radius:42px;
+        }
+        .typescript{
+        position:absolute;
+        margin-top:-60px;
+        margin-left:183px;
+        }
+        /* h1{ */
+            /* font-size:1px; */
+        /* } */
     }
