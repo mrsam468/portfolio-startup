@@ -1,0 +1,171 @@
+html,body{
+    background:linear-gradient(to right,#000000,#494949);
+    color:#ffffff;
+    margin:0px;
+    padding:8px;
+}
+nav{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.right-section{
+    flex:1;
+    margin-left:3px;
+}
+#header-one{
+    font-size:50px;
+    font-weight:700px;
+    font-family:roboto,arial;
+}
+/* h1{
+font-family:roboto,arial;
+font-weight:700px;
+font-size:50px;
+line-height:58.59px;
+} */
+.benjamin{
+    opacity:30%;
+}
+.middle-section{
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap:60px;
+    flex:1;
+    /* margin-right:100px; */
+}
+.left-section{
+    flex:1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right: 39px;
+}
+.nav-button{
+    width:229px;
+    height:56px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#494949;
+    border:5px solid #70FF00  ;
+    border-bottom:5px solid #ffffff;
+    border-radius:19px;
+    border-width: 5px;
+}
+.message-icon{
+    width:36px;
+    height:19.5px;
+}
+.nav-button p{
+    font-family:roboto,arial;
+    font-weight:700px;
+    font-size:21px;
+    line-height:24.61px;
+    color:#ffffff;
+    margin-right:40px;
+}
+.linked-in{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linked-in img{
+    width:25.5px;
+    height: 25.5px;
+}
+.about{
+    font-family: roboto,arial;
+    font-weight:700px;
+    font-size:26px;
+    line-height:30.47px;
+}
+.about-me{
+    font-family: roboto,arial;
+    font-weight:700px;
+    font-size:26px;
+    line-height:30.47px;
+}
+.about-me :hover{
+    color:green;
+}
+.github:hover{
+    color:rgb(42, 235, 42);
+}
+.nav-button:hover p{
+    /* background-color: black; */
+    color:rgb(61, 239, 61);
+    /* border-color: 5px solid green; */
+}
+.nav-button:hover{
+    background-color: black;
+    border-color: rgb(64, 226, 64);
+}
+.nav-button:hover img{
+    color:rgb(62, 244, 62);
+}
+.github-pic:hover{
+    color:rgb(53, 232, 53);
+}
+.menu-bar{
+    display:none;
+}
+@media screen and (max-width:765px) {
+    html,body{
+        /* background:linear-gradient(to right,#494949,#919191) */
+        background:gray;
+    }
+    .middle-section{
+        display:none;
+    }
+    .left-section{
+        display:none;
+    }
+    .menu-bar{
+        display:flex;
+    }
+    .menu-bar img{
+        width:60px;
+    }
+    #header-one{
+        font-size:22px
+    }
+    /* h1{ */
+        /* font-size:1px; */
+    /* } */
+}
+@media screen and (max-width:1200px){
+    #header-one{
+        font-size:22px;
+    }
+    .about,
+    .about-me{
+        font-size:20px;
+    }
+    .left-section p{
+        font-size:20px;
+}
+.left-section img{
+    width:19px
+}
+.left-section button{
+    width:100px;
+    justify-content: space-between;
+}
+.nav-button p{
+    font-size:5px;
+    /* margin-left:12px; */
+}
+.nav-button img{
+    width:12px;
+}
+.left-section{
+    display:none;
+}
+.menu-bar{
+    display:flex;
+}
+    }
