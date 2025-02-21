@@ -711,9 +711,10 @@ a{
     /* align-items: column; */
 }
 .section-five{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items:normal;
     gap:18px;
     /* margin-right:65px; */
 }
@@ -1069,7 +1070,7 @@ a{
         width:280px;
     }
     .project-two{
-        margin-top:-8px;
+        margin-top:-6px;
         margin-bottom:2px;
         font-family:roboto,arial;
         font-weight:700px;
